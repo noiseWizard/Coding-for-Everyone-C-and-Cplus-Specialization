@@ -7,6 +7,6 @@ Write a poem in C
 #include<stdio.h>
 int main(void)
 {   
-    printf("lineOne\nlineTwo\nlineThree");
+    printf("Compile time woes cry,\nBut when it runs, oh the joy,\nC's dance, a victory.");
     return 0;
 }    
