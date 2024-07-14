@@ -1,22 +1,14 @@
-/*
-Fixing Dr P's Mistake, week 3 lesson
-[name]
-14 July 2024
-*/
-
 #include<stdio.h>
 #include<math.h> /* has  sin(), abs(), and fabs() */
 int main(void)
-{ 
-double interval;
-int i;
-for(i = 0; i <30; i++)
-{
- interval = i/10.0;
- printf(“sin( %lf ) = %lf \t”, interval, abs(sin(interval)));
-}
+    { 
+    double interval;
+    int i;
+    for(i = 0; i <30; i++){
+        interval = i/10.0;
+        printf("sin( %lf ) = %lf \t", interval, sin(interval));
+    }
 
-
-printf(“\n+++++++\n”);
-return 0;
+    printf("\n+++++++\n");
+    return 0;
 }
