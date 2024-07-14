@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<math.h> /* has  sin(), abs(), and fabs() */
+#include <stdio.h>
+#include <math.h> /* has  sin(), abs(), and fabs() */
 int main(void)
     { 
     double interval;
