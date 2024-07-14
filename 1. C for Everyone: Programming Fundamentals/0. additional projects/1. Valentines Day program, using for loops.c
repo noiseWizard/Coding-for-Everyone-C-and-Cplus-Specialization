@@ -9,7 +9,7 @@ int main(void){
     int repeat = 0;
     int i;
     printf("Guess how much I love you. (1-10):");
-    scanf("d%, &repeat");
+    scanf("%d", &repeat);
     printf("\nI love you very");
     for (i = 0; i <= repeat; i++){
         printf("\n very");
