@@ -3,6 +3,16 @@
 
 #define MAX_SIZE 1000 // defines the max size
 
+double calc_average_weight(int how_many, int weight[]){
+	int j;
+	double sum = 0.0;
+
+	for (j = 0; j < how_many; j++){
+		sum += weight[j];
+	}
+	return(sum/how_many);
+}
+
 int main() {
     FILE *fp;
     int data[MAX_SIZE];
@@ -31,7 +41,8 @@ int main() {
     }
     printf("\n");
 
-    // You can now use the data array for further processing
+    printf("++++++++++++++++++++++++++++++++++");
+    printf("the average weight is %.2f\n\n", calc_average_weight(i,data));
 
     return 0;
 }
