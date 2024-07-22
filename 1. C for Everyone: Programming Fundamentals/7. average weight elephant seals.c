@@ -13,7 +13,7 @@ double average_weight(int how_many, int weight[]){
     for (i = 0; i < how_many; i++){
         sum += weight[i];
     }
-    return(sum/weight);
+    return(sum/how_many);
 }
 
 void print_weight(int how_many, int weight[]){
